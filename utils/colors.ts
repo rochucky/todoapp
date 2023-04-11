@@ -1,7 +1,24 @@
+import { Appearance } from "react-native";
+
+const colorScheme = Appearance.getColorScheme();
+
 const Colors = {
-  primary: "#ed8815",
-  secondary: "#00FF00",
-  tertiary: "#0000FF",
+  dark: {
+    primary: "#ed8815",
+    secondary: "#00FF00",
+    tertiary: "#0000FF",
+    white: "#FFFFFF",
+    text: "#f0f0f0",
+    background: "#212121",
+  },
+  light: {
+    primary: "#ed8815",
+    secondary: "#00FF00",
+    tertiary: "#0000FF",
+    white: "#FFFFFF",
+    text: "#212121",
+    background: "#f0f0f0",
+  },
 };
 
-export default Colors;
+export default Colors[colorScheme || "light"];
