@@ -7,13 +7,11 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.background,
     color: Colors.text,
     alignItems: "center",
-    padding: 10,
+    paddingTop: 10,
     width: "100%",
     height: "100%",
   },
-  text: {
-    color: Colors.text,
-  },
+
   todoItem: {
     flexDirection: "row",
     alignItems: "center",
@@ -35,6 +33,14 @@ const styles = StyleSheet.create({
   },
   checkbox: {
     color: Colors.primary,
+  },
+  text: {
+    flex: 1,
+    color: Colors.text,
+  },
+  textInput: {
+    flex: 1,
+    color: Colors.text,
   },
 });
 
