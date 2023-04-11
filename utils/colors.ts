@@ -10,6 +10,7 @@ const Colors = {
     white: "#FFFFFF",
     text: "#f0f0f0",
     background: "#212121",
+    backgroundOpacity: "rgba(240, 240, 240, 0.2)",
   },
   light: {
     primary: "#ed8815",
@@ -18,6 +19,7 @@ const Colors = {
     white: "#FFFFFF",
     text: "#212121",
     background: "#f0f0f0",
+    backgroundOpacity: "rgba(33, 33, 33, 0.2)",
   },
 };
 
