@@ -26,6 +26,9 @@ const styles = StyleSheet.create({
     margin: 10,
     padding: 6,
   },
+  todoList: {
+    width: "100%",
+  },
   todoItem: {
     flexDirection: "row",
     alignItems: "center",
@@ -51,6 +54,9 @@ const styles = StyleSheet.create({
   text: {
     flex: 1,
     color: Colors.text,
+  },
+  textSelected: {
+    textDecorationLine: "line-through",
   },
   textInput: {
     flex: 1,
