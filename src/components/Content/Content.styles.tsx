@@ -11,7 +11,21 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
   },
-
+  addItemView: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "flex-start",
+    width: "100%",
+    padding: 10,
+    backgroundColor: Colors.background,
+    color: Colors.text,
+  },
+  addItemText: {
+    borderBottomColor: Colors.text,
+    borderBottomWidth: 0.2,
+    margin: 10,
+    padding: 6,
+  },
   todoItem: {
     flexDirection: "row",
     alignItems: "center",
