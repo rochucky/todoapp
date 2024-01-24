@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>To Do</Text>
+      <Text style={styles.title}>To Do</Text>
     </View>
   );
 };
